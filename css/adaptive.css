@@ -1,0 +1,60 @@
+@media screen and (max-width: 1030px) {
+    .about_me {
+        padding: 30px 10px;
+    }
+
+    .about__inner {
+        flex-direction: column;
+    }
+
+    .info {
+        order: 2;
+        max-width: 100%;
+        margin-right: 0px;
+    }
+
+    .my_photo {
+        order: 1;
+        margin: 0 auto;
+        height: 350px;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .my_photo img {
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .my_photo {
+        height: 275px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .my_photo {
+        width: 57%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .my_photo {
+        width: 77%;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .my_photo {
+        width: 100%;
+    }
+}
