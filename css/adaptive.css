@@ -42,6 +42,25 @@
         height: 100%;
         object-fit: cover;
     }
+
+    .intro__inner,
+    .about__block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .feedback__form input,
+    .feedback__form textarea{
+        width: 384px;
+    }
+
+    .contacts-info {
+        padding-left: 0px;
+    }
+
+    .feedback__form {
+        padding-right: 0px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -57,6 +76,36 @@
 
     .title h3 {
         font-size: 30px;
+    }
+
+    .contacts__block {
+        display: block;
+    }
+
+    .contacts h3 {
+        font-size: 20px;
+    }
+
+    .contacts__items {
+        margin-top: 44px;
+    }
+
+    .feedback__form h3 {
+        margin-top: 56px;
+        margin-bottom: 20px;
+    }
+
+    .feedback__form input,
+    .feedback__form textarea {
+        width: 100%;
+    }
+
+    .feedback__form button {
+        max-width: 100%;
+    }
+
+    .feedback__form textarea {
+        min-height: 80px;
     }
 }
 
