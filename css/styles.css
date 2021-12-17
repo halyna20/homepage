@@ -275,6 +275,7 @@ Timeline
 
 .timeline-list a {
     color: #034944;
+    cursor: pointer;
 }
 
 .timeline-data {
@@ -381,6 +382,100 @@ Timeline
 /******************
 Contact info styles
 *******************/
+.contacts {
+    background: #000;
+    color: #fff;
+    margin-top: 40px;
+    padding: 50px 0px 66px 0px;
+}
+
+.contacts__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contacts-info {
+    padding-left: 40px;
+}
+
+.contacts-info svg {
+    width: 16px;
+    color: #ffde94;
+}
+
+.contacts h3 {
+    font-size: 35px;
+}
+
+.contacts-info span {
+    font-size: 17px;
+    line-height: 22px;
+    padding-left: 8px;
+}
+
+.contacts__items {
+    margin-top: 66px;
+}
+
+.feedback__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.feedback__form h3 {
+    margin-bottom: 48px;
+}
+
+.feedback__form input {
+    padding: 8px 10px 7px 42px;
+    width: 600px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.feedback__form textarea {
+    resize: none;
+    padding: 8px 42px 7px 12px;
+    width: 600px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+
+svg.fa {
+    width: 15px;
+    height: 15px;
+    top: 27px;
+    left: 12px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: -26px;
+    position: relative;
+    z-index: 1;
+    float: left;
+    color: #ffde94;
+}
+
+.feedback__form button {
+    background: linear-gradient(13deg, rgba(255,255,255,1) 0%, rgba(253,187,45,1) 100%);
+    border-radius: 30px;
+    padding: 12px;
+    max-width: 270px;
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.feedback__form button:active {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(253,187,45,1) 100%);
+}
+
 .contact-info__header,
 .contact-info__sub-header {
     text-align: center;
