@@ -1,9 +1,24 @@
+@media all and (min-width:40em) {
+    .block-content h2 {
+        font-size: 4.75em;
+    }
+
+    .content h3 {
+        font-size: 2em;
+    }
+
+    .l-contained {
+        padding-left:2em;
+        padding-right:2em;
+    }
+}
+
 @media screen and (max-width: 1030px) {
-    .about_me {
+    .intro {
         padding: 30px 10px;
     }
 
-    .about__inner {
+    .intro__inner {
         flex-direction: column;
     }
 
@@ -38,6 +53,10 @@
 @media screen and (max-width: 655px) {
     .my_photo {
         width: 57%;
+    }
+
+    .title h3 {
+        font-size: 30px;
     }
 }
 
