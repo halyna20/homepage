@@ -209,24 +209,24 @@ Timeline
   
 .block-content h1, h2, h3 {
     font-family: "Merriweather", sans-serif;
-    font-weight:9 00;
+    font-weight: 900;
 }
 .block-content  p {
     font-family: "Merriweather", sans-serif;
-    line-height:1.5;
+    line-height: 1.5;
 }
   
 .l-block-spacing {
-    min-height:70vh;
-    padding-top:2em;
+    min-height: 70vh;
+    padding-top: 2em;
 }
 
 .l-contained {
-    max-width:1000px;
-    margin-left:auto;
-    margin-right:auto;
-    padding-left:1em;
-    padding-right:1em;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .timeline-list {
@@ -245,7 +245,7 @@ Timeline
     bottom: 0;
     top: 0;
     transform-origin:0 0;
-    animation:scaleVertical 3s 1s ease both 1;
+    animation: scaleVertical 3s 1s ease both 1;
 }
 
 .timeline-list:after {
