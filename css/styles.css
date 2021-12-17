@@ -189,12 +189,6 @@ Timeline
     line-height:1;
     letter-spacing:0.02em;
 }
-
-@media all and (min-width:40em) {
-    .block-content h2 {
-        font-size: 4.75em;
-    }
-}
 .subtitle {
     font-family: "Merriweather", sans-serif;;
     font-weight:300;
@@ -212,11 +206,6 @@ Timeline
     letter-spacing:0.02em;
     color:#fff;
 }
-@media all and (min-width:40em) {
-    .content h3 {
-        font-size: 2em;
-    }
-}
   
 .block-content h1, h2, h3 {
     font-family: "Merriweather", sans-serif;
@@ -228,8 +217,8 @@ Timeline
 }
   
 .l-block-spacing {
-    min-height:80vh;
-    padding:2em 0 4em 0;
+    min-height:70vh;
+    padding-top:2em;
 }
 
 .l-contained {
@@ -240,12 +229,6 @@ Timeline
     padding-right:1em;
 }
 
-@media all and (min-width:40em) {
-    .l-contained {
-        padding-left:2em;
-        padding-right:2em;
-    }
-}
 .timeline-list {
     padding-bottom: 1em;
     position: relative;
