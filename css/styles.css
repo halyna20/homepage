@@ -19,7 +19,7 @@ body {
     line-height: 1.5;
 
     --primary-text-color: #4D4B4B;
-    --secondary-text-color: #5c5c62;
+    --secondary-text-color: #525151;;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
@@ -85,6 +85,10 @@ Intro block
     -webkit-box-shadow: 2px 2px 3px #999;
 }
 
+.info p {
+    color: var(--secondary-text-color);
+}
+
 /***********
 About block
 *********/
@@ -131,6 +135,7 @@ About block
     background-color: #000;
     position: absolute;
     top: 10px;
+    transition: all 0.3s ease 0s;
 }
 
 .about__title::before {
@@ -145,8 +150,26 @@ About block
 
 .about__text {
     display: none;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 40px;
 }
+
+.about__title.active:before,
+.about__title.active::after {
+    background-color: #ffde94;
+}
+
+.about__title.active:before {
+    transform: rotate(-40deg);
+}
+
+.about__title.active::after {
+    transform: rotate(40deg);
+}
+
+.about__list {
+    color: var(--secondary-text-color);
+}
+
 
 @media screen and (max-width: 576px) {
 
