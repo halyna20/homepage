@@ -18,7 +18,7 @@ body {
     font-family: B20Sans, sans-serif;
     line-height: 1.5;
 
-    --primary-text-color: #181820;
+    --primary-text-color: #4D4B4B;
     --secondary-text-color: #5c5c62;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
@@ -49,12 +49,12 @@ body {
 /************
 Intro block
 ***********/
-.about_me {
+.intro {
     padding: 50px 10px;
     background: #f3f3f3;
 }
 
-.about__inner {
+.intro__inner {
     display: flex;
     align-items: center;
     height: 100%;
@@ -85,6 +85,68 @@ Intro block
     -webkit-box-shadow: 2px 2px 3px #999;
 }
 
+/***********
+About block
+*********/
+.about {
+    margin-top: 100px;
+}
+
+.title h3 {
+    text-align: center;
+    font-size: 40px;
+    color: var(--primary-text-color);;
+}
+
+.title h3::after {
+    content: "";
+    display: block;
+    width: 132px;
+    padding-top: 3px;
+    border-bottom: 2px solid #ffde94;
+    margin: 0 auto;
+}
+
+.about__block {
+    padding: 40px;
+}
+
+.about__item {
+    margin: 0px 0px 20px 0px;
+}
+
+.about__title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+.about__title::before,
+.about__title::after {
+    content: '';
+    width: 10px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 10px;
+}
+
+.about__title::before {
+    transform: rotate(40deg);
+    left: 0;
+}
+
+.about__title::after {
+    transform: rotate(-40deg);
+    left: 8px;
+}
+
+.about__text {
+    display: none;
+    padding: 10px 0px 0px 0px;
+}
 
 @media screen and (max-width: 576px) {
 
