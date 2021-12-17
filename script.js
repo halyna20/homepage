@@ -7,4 +7,8 @@ $(document).ready(function() {
         }
         $(this).toggleClass('active').next().slideToggle(300);
     });
+
+    $("#contacts-form").submit(function(event) {
+          event.preventDefault();
+    });
 });
